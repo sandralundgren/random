@@ -16,18 +16,18 @@ function createNumbers() {
    if (firstNum > secondNum) {
 
      var el1 = document.getElementById("theMax");
-     el1.innerHTML = firstNum;
+     el1.textContent = "The maximum is " + firstNum;
      var el2 = document.getElementById("theMin");
-     el2.innerHTML = secondNum;
+     el2.textContent = "The minimum is " + secondNum;
      
      }
      
      else {
   
         var el1 = document.getElementById("theMax");
-        el1.innerHTML = secondNum;
+        el1.textContent = "The maximum is " + secondNum;
         var el2 = document.getElementById("theMin");
-        el2.innerHTML = firstNum;
+        el2.textContent = "The minimum is " + firstNum;
        
         }
     
